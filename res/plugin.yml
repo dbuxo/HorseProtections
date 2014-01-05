@@ -1,0 +1,16 @@
+name: HorseProtections
+main: com.gmail.zant95.HorseProtections.HorseProtections
+version: 1.0.0
+author: zant95
+commands:
+   horseprotect:
+      aliases: [hp]
+permissions:
+   horseprotections.protect:
+      default: true
+   horseprotections.checkowner:
+      default: true
+   horseprotections.damage:
+      default: op
+   horseprotections.bypass:
+      default: op
