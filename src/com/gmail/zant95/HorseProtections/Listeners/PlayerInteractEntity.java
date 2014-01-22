@@ -55,7 +55,7 @@ public class PlayerInteractEntity implements Listener {
 			
 			/* Cancel mount event */
 			else if (!canBeMounted) {
-				player.sendMessage(Messages.NOT_YOUR_HORSE);
+				player.sendMessage(Messages.NOT_YOUR_HORSE(owner.getName()));
 				
 				Location location = player.getLocation();
 				event.setCancelled(true);

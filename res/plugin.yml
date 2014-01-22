@@ -1,6 +1,6 @@
 name: HorseProtections
 main: com.gmail.zant95.HorseProtections.HorseProtections
-version: 1.0.0
+version: 1.0.1
 author: zant95
 commands:
    horseprotect:
